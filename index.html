@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- tailwind and daisy cdn link -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind custom styles -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+
+    <!--custom css styles -->
+    <style>
+      .font-lato {
+        font-family: "Lato", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header section starts -->
+    <header>
+      <!-- nav section starts -->
+      <div class="max-w-[1440px] mx-auto lg:mt-[50px]">
+        <div
+          class="flex flex-col justify-between items-center lg:flex-row lg:justify-evenly bg-base-100 lg:bg-[#F85559] h-[120px] lg:rounded-[600px]"
+        >
+          <div
+            class="flex items-center justify-between w-full px-4 mt-4 lg:hidden"
+          >
+            <div class="flex items-center">
+              <a
+                class="text-4xl font-bold text-[#121212] normal-case btn btn-ghost font-lato h-[60px]"
+                ><img
+                  class="w-[54.517px] h-[60px]"
+                  src="./images/logo.png"
+                  alt=""
+                />Fruit Burst</a
+              >
+            </div>
+            <div class="dropdown dropdown-left">
+              <label tabindex="0" class="btn btn-ghost">
+                <img src="./images/hamburger-icon.svg" alt="" />
+              </label>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li>
+                  <a class="text-lg font-medium text-black font-lato">Home</a>
+                </li>
+                <li>
+                  <a class="text-lg font-medium text-black font-lato"
+                    >About Us</a
+                  >
+                </li>
+                <li>
+                  <a class="text-lg font-medium text-black font-lato">Shop</a>
+                </li>
+                <li>
+                  <a class="text-lg font-medium text-black font-lato"
+                    >All Fruits</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="hidden lg:flex">
+            <ul class="flex gap-7">
+              <li>
+                <a class="text-lg font-medium text-white font-lato">Home</a>
+              </li>
+              <li>
+                <a class="text-lg font-medium text-white font-lato">About Us</a>
+              </li>
+              <li>
+                <a class="text-lg font-medium text-white font-lato">Shop</a>
+              </li>
+              <li>
+                <a class="text-lg font-medium text-white font-lato"
+                  >All Fruits</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="hidden lg:flex lg:justify-center lg:items-center">
+            <a
+              class="text-4xl font-bold text-white normal-case btn btn-ghost font-lato"
+              ><img
+                class="w-[54.517px] h-[60px]"
+                src="./images/logo.png"
+                alt=""
+              />Fruit Burst</a
+            >
+          </div>
+          <div class="hidden lg:flex">
+            <div class="relative">
+              <input
+                type="text"
+                placeholder="Search here"
+                class="w-24 lg:w-[400px] pl-4 pr-10 py-2 input input-bordered md:w-auto rounded-[50px]"
+              />
+              <img
+                class="absolute top-0 right-0 w-6 h-6 mt-3 mr-3"
+                src="./images/search-icon.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- nav section ends -->
+    </header>
+    <!-- header section ends -->
+    <!-- main section starts -->
+    <main></main>
+    <!-- main section ends -->
+    <!-- footer section  -->
+    <footer></footer>
+    <!-- footer section ends -->
+  </body>
+</html>
